@@ -1,5 +1,8 @@
 
 import invert_string.InvertString;
+import manage_conatct_list.presentation.ContactsOption;
+import manage_conatct_list_catalog.presentation.ContactsOptionCatalog;
+import manage_store.presentation.StoreOption;
 import random_numbers.RandomNumber;
 import school_grades.presentation.GradesOption;
 
@@ -13,9 +16,17 @@ public class App {
         // InvertString invertString = new InvertString();
         // invertString.invert_string();
 
-        GradesOption gradesOption = new GradesOption();
-        gradesOption.optionGrades();
-        ;
+        // GradesOption gradesOption = new GradesOption();
+        // gradesOption.optionGrades();
+
+        // ContactsOption contactsOption = new ContactsOption();
+        // contactsOption.conctactsOption();
+
+        // StoreOption storeOption = new StoreOption();
+        // storeOption.storeOptions();
+
+        ContactsOptionCatalog contactsOptionCatalog = new ContactsOptionCatalog();
+        contactsOptionCatalog.conctactsOption();
     }
 
 }
