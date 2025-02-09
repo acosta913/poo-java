@@ -32,8 +32,8 @@ public class App {
         // GradesOption gradesOption = new GradesOption();
         // gradesOption.optionGrades();
 
-        ContactsOption contactsOption = new ContactsOption();
-        contactsOption.conctactsOption();
+        // ContactsOption contactsOption = new ContactsOption();
+        // contactsOption.conctactsOption();
 
         // StoreOption storeOption = new StoreOption();
         // storeOption.storeOptions();
