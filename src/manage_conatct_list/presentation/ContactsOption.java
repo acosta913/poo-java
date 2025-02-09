@@ -18,7 +18,8 @@ public class ContactsOption {
             System.out.println("2. Search contact");
             System.out.println("3. Delete contact");
             System.out.println("4. Show contacts");
-            System.out.println("5. Exit");
+            System.out.println("5. Filter by age");
+            System.out.println("6. Exit");
             op = Integer.parseInt(sc.nextLine());
             switch (op) {
                 case 1:
@@ -58,11 +59,19 @@ public class ContactsOption {
                     }
                     break;
                 case 5:
+                    System.out.println("Entry max age; ");
+                    age = Integer.parseInt(sc.nextLine());
+                    Contact[] filter = manageContacts.getByMaxAge(age);
+                    for (Contact obj : filter) {
+                        System.out.println(obj.getName() + "-" + obj.getEmail() + "-" + obj.getAge());
+                    }
+                    break;
+                case 6:
                     break;
                 default:
                     System.out.println("Enter valid option!");
             }
-        } while (op != 5);
+        } while (op != 6);
     }
 
 }

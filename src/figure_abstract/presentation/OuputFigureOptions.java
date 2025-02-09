@@ -1,8 +1,8 @@
-package FigureAbstract.logic.presentation;
+package figure_abstract.presentation;
 
-import FigureAbstract.logic.Circle;
-import FigureAbstract.logic.Figure;
-import FigureAbstract.logic.Triangle;
+import figure_abstract.logic.Circle;
+import figure_abstract.logic.Figure;
+import figure_abstract.logic.Triangle;
 
 public class OuputFigureOptions {
 

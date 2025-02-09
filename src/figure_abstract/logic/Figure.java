@@ -1,4 +1,4 @@
-package FigureAbstract.logic;
+package figure_abstract.logic;
 
 public abstract class Figure {
     private String color;

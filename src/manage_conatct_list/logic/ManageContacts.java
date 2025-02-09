@@ -1,5 +1,6 @@
 package manage_conatct_list.logic;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 
@@ -48,5 +49,16 @@ public class ManageContacts {
             i++;
         }
         return contactsAll;
+    }
+
+    public Contact[] getByMaxAge(int age) {
+        ArrayList<Contact> aux = new ArrayList<>();
+        listContact.forEach((k, v) -> {
+            if (v.getAge() <= age) {
+                aux.add(v);
+            }
+        });
+        Contact[] str = aux.toArray(new Contact[0]);
+        return str;
     }
 }

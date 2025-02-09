@@ -1,4 +1,4 @@
-package FigureAbstract.logic;
+package figure_abstract.logic;
 
 public class Circle extends Figure {
     private int radius;
